@@ -81,7 +81,14 @@ src/
 - Integrated **Tailwind CSS** and **MUI** for hybrid styling support.
 - Added folder hierarchy for role-based routes (public, user, owner, admin).
 
+### 🌙 Second Commit
+- Implemented **Theme Toggle functionality** using React Context Provider.
+- Created a global **ThemeContext** to manage light and dark modes.
+- Integrated theme toggle across the app with MUI theme provider and Tailwind classes.
+- Ensured theme state persists between sessions for consistent user experience.
+
 ---
+
 
 ---
 
