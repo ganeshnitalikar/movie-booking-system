@@ -87,6 +87,14 @@ src/
 - Integrated theme toggle across the app with MUI theme provider and Tailwind classes.
 - Ensured theme state persists between sessions for consistent user experience.
 
+
+### third commit
+- Configured **Redux store** for state management.
+- Created **authSlice** inside `src/redux/slices` for managing authentication state.
+- Integrated the store with the main app entry point.
+- Added basic authentication reducers and actions for login, logout, and user persistence.
+
+
 ---
 
 
