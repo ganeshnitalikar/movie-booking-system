@@ -102,6 +102,9 @@ src/
 - Linked auth state with routing to ensure proper redirection after login/logout.
 - Verified state persistence across refresh.
 
+
+### fifth commit 
+- implemented the navbar as well as footer with complete routing 
 ---
 
 
