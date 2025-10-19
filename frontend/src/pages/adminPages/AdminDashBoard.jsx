@@ -1,9 +1,9 @@
 import React from 'react'
 
-const adminDashBoard = () => {
+const AdminDashBoard = () => {
   return (
     <div>adminDashBoard</div>
   )
 }
 
-export default adminDashBoard
+export default AdminDashBoard

@@ -94,6 +94,13 @@ src/
 - Integrated the store with the main app entry point.
 - Added basic authentication reducers and actions for login, logout, and user persistence.
 
+### fourth commit 
+
+- Integrated **authentication state management** using Redux and Context API.
+- Added **protected routes** and **public routes** to handle user navigation.
+- Configured **React Router DOM (v7)** for route-based navigation.
+- Linked auth state with routing to ensure proper redirection after login/logout.
+- Verified state persistence across refresh.
 
 ---
 
