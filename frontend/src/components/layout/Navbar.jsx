@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import {
   AppBar,
   Toolbar,
@@ -348,8 +348,10 @@ const Navbar = () => {
     <>
       <AppBar position="sticky" elevation={1} sx={{ backgroundColor: 'background.paper' }}>
         <Toolbar sx={{ px: { xs: 1, sm: 2 }, gap: 2, justifyContent: 'space-between' }}>
+
+          
           {/* Left Side - Logo and Brand Name */}
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, minWidth: 'fit-content' }}>
+          <Box onClick={() => navigate(ROUTES.HOME)} sx={{ display: 'flex', alignItems: 'center', gap: 1, minWidth: 'fit-content', cursor: 'pointer' }}>
             <Box
               sx={{
                 width: 40,
