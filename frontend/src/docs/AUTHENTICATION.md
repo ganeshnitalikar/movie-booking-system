@@ -112,7 +112,7 @@ const response = await apiCall(API_CONFIG.ENDPOINTS.AUTH.LOGIN, {
 ```javascript
 // src/config/api.js
 export const API_CONFIG = {
-  BASE_URL: process.env.REACT_APP_API_URL || 'http://localhost:3001/api',
+  BASE_URL: import.meta.env.REACT_APP_API_URL || 'http://localhost:3001/api',
   ENDPOINTS: {
     AUTH: {
       LOGIN: '/auth/login',
